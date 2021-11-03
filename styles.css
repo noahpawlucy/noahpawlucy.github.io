@@ -1,15 +1,35 @@
 body {
-    background:palegreen;
+    background:#1B5E20;
 }
 
 .assignment {
     display:flex;
     padding:10px;
     margin:10px;
-    background:paleturquoise;
+    background: #81C784;
+    border-radius:10px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:15px;
+    border:3px solid #2E7D32;
+}
+
+.assignment img:hover {
+    border:3px solid #43A047;
+}
+
+a {
+    text-decoration: none;
+    color: #2E7D32;
+}
+
+a:hover {
+    color: #43A047;
+}
+
+h1 {
+    color: #E8F5E9;
+    text-align: center;
 }
